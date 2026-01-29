@@ -1,6 +1,6 @@
 function MyCard({ icon: Icon, heading, content, subheading }) {
   return (
-    <div className="bg-white text-black w-[300px] p-6 rounded-xl shadow-lg text-center space-y-3">
+    <div className="md:w-[300px] bg-white text-black w-screen p-6 rounded-xl shadow-lg text-center space-y-3">
       {Icon && <Icon className="text-3xl m-auto" />}
 
       <h2 className="font-bold">{heading}</h2>

@@ -7,11 +7,11 @@ function Section2() {
     <div className="bg-blue-950 h-[500px] text-white border-b border-white">
       <Section1 />
 
-      <div className="w-[30%] m-auto text-center space-y-[15px]">
+      <div className="md:w-screen m-auto text-center space-y-[15px]">
         <h1 className="font-bold text-blue-300 text-[24px]">JOHN WICK</h1>
         <h2 className="font-bold">Actor and Artist</h2>
 
-        <p className="text-sm">
+        <p className="text-sm m-auto text-center ">
           John Wick is a fictional character and the titular protagonist of
           the John Wick film series.
         </p>
